@@ -4,17 +4,26 @@
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
-<html>
+<html lang="en">
 
 <head>
-	<title>Dimbrox – Sustainable AEC Consulting, BIM & Energy Efficiency</title>
+	<title>Dimbrox – Sustainability & Digital AEC/BIM Solutions</title>
 	<meta charset="utf-8">
 	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<meta name="description" content="Dimbrox is a consultancy focused on sustainable construction, BIM, and digital solutions for the AEC industry. We help engineers and architects build smarter with energy-efficient tools and expert consulting.">
-	<meta name="keywords" content="AEC consulting, sustainable construction, BIM, energy efficiency, building energy audit, digital twin, architecture, engineering, Dimbrox, digitalization">
+	<meta name="description"
+		content="Dimbrox empowers architects and engineers with BIM consulting and energy-efficient digital solutions for the AEC industry.">
+	<meta name="keywords"
+		content="AEC consulting, sustainable construction, BIM, energy efficiency, building energy audit, digital twin, architecture, engineering, Dimbrox, digitalization">
+	<meta name="theme-color" content="#004225">
 	<link rel="canonical" href="https://dimbrox.com/">
 	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+	<link rel="shortcut icon" href="favicon/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+	<meta name="apple-mobile-web-app-title" content="Dimbrox" />
+	<link rel="manifest" href="favicon/site.webmanifest" />
 </head>
 
 <body class="is-preload">
@@ -41,7 +50,8 @@
 			</p>
 			<br><br><br><a href="#what-we-do" class="button icon fa-wpexplorer">Explore</a>
 		</div>
-		<video autoplay loop muted playsinline src="images/banner.mp4"></video>
+		<video autoplay loop muted playsinline aria-label="Background video showing modern architecture"
+			src="images/banner.mp4">Your browser does not support the video tag.</video>
 	</section><!-- Highlights -->
 	<section id="what-we-do" class="wrapper">
 		<div class="inner">
@@ -55,7 +65,7 @@
 			<div class="highlights">
 				<section>
 					<div class="content">
-						<header><a href="#" class="icon fa-database"><span class="label">Icon</span></a>
+						<header><a href="#" class="icon fa-database"><span class="label">Icon BIM</span></a>
 							<h3>Digitalization & BIM Consulting</h3>
 						</header>
 						<p>BIM model coordination, digital twin strategies, software integration.</p>
@@ -63,7 +73,8 @@
 				</section>
 				<section>
 					<div class="content">
-						<header><a href="#" class="icon fa-building-o"><span class="label">Icon</span></a>
+						<header><a href="#" class="icon fa-building-o"><span class="label">Icon Energy
+									Efficiency</span></a>
 							<h3>Energy Efficiency & Sustainable Design</h3>
 						</header>
 						<p>Dynamic simulation, thermal modeling, carbon footprint analysis.</p>
@@ -71,7 +82,7 @@
 				</section>
 				<section>
 					<div class="content">
-						<header><a href="#" class="icon fa-floppy-o"><span class="label">Icon</span></a>
+						<header><a href="#" class="icon fa-floppy-o"><span class="label">Icon Custom Software</span></a>
 							<h3>Custom Software & Tools</h3>
 						</header>
 						<p>UI/UX for engineers, prototyping tools, integrations (highlight if you build tools
@@ -80,7 +91,7 @@
 				</section>
 				<section>
 					<div class="content">
-						<header><a href="#" class="icon fa-line-chart"><span class="label">Icon</span></a>
+						<header><a href="#" class="icon fa-line-chart"><span class="label">Icon R&D</span></a>
 							<h3>Research & Innovation</h3>
 						</header>
 						<p>EU research collaboration, open-source initiatives, academic partnership (relevant to both of
@@ -89,7 +100,7 @@
 				</section>
 				<section>
 					<div class="content">
-						<header><a href="#" class="icon fa-paper-plane-o"><span class="label">Icon</span></a>
+						<header><a href="#" class="icon fa-paper-plane-o"><span class="label">Icon Consulting</span></a>
 							<h3>Consulting & Process Optimization</h3>
 						</header>
 						<p>We help AEC teams streamline workflows, adopt digital tools effectively, and optimize
@@ -99,7 +110,7 @@
 				</section>
 				<section>
 					<div class="content">
-						<header><a href="#" class="icon fa-qrcode"><span class="label">Icon</span></a>
+						<header><a href="#" class="icon fa-qrcode"><span class="label">Icon Energy Audit</span></a>
 							<h3>Building Energy Audit</h3>
 						</header>
 						<p>We assess the energy performance of buildings to identify inefficiencies and recommend
@@ -175,10 +186,12 @@
 				<form method="post" action="https://formsubmit.co/63f564243444a9c7676407a5c34678e2">
 					<div class="row gtr-uniform">
 						<div class="col-6 col-12-xsmall">
-							<input type="text" name="name" id="name" value="" placeholder="Your Name">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" placeholder="Your Name">
 						</div>
 						<div class="col-6 col-12-xsmall">
-							<input type="email" name="email" id="email" value="" placeholder="Your Email">
+							<label for="email">Email</label>
+							<input type="email" name="email" id="email" placeholder="Your Email">
 						</div>
 						<!-- Break -->
 						<!-- <div class="col-12">
@@ -213,6 +226,7 @@
 						</div> -->
 						<!-- Break -->
 						<div class="col-12">
+							<label for="textarea">Message</label>
 							<textarea name="textarea" id="textarea" placeholder="Your message to us"
 								rows="6"></textarea>
 						</div>
