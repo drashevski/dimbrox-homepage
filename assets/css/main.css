@@ -10,8 +10,8 @@
   --main-color: #004225;
   --main-color-text: rgba(255, 255, 255, 0.8);
   --footer-color: rgb(0, 66, 37, 0.8);
-  --menu-color: #004225;
   --copyright-color: rgb(0, 66, 37);
+  --menu-color: #111111;
 }
 @-ms-viewport {
   width: device-width; }
@@ -1808,7 +1808,7 @@ ul.icons {
 #banner {
   -ms-flex-align: center;
   -ms-flex-pack: center;
-  background-color: var(--menu-color);
+  background-color: var(--main-color);
   color: var(--main-color-text);
   -moz-align-items: center;
   -webkit-align-items: center;
@@ -1917,7 +1917,7 @@ ul.icons {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.25)' /%3E%3C/svg%3E"); }
     #banner select option {
       color: var(--main-color-text);
-      background-color: var(--menu-color); }
+      background-color: var(--main-color); }
   #banner input[type="checkbox"] + label,
   #banner input[type="radio"] + label {
     color: var(--main-color-text); }
@@ -1957,10 +1957,10 @@ ul.icons {
   #banner table.alt tbody tr td {
     border-color: rgba(255, 255, 255, 0.25); }
   #banner .highlights .content {
-    background: var(--menu-color);
+    background: var(--main-color);
     box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025); }
   #banner .testimonials .content {
-    background: var(--menu-color);
+    background: var(--main-color);
     box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025); }
     #banner .testimonials .content .credit strong {
       color: var(--main-color); }
@@ -2010,7 +2010,7 @@ ul.icons {
     -webkit-transition-delay: 1.25s;
     -ms-transition-delay: 1.25s;
     transition-delay: 1.25s;
-    background: var(--menu-color);
+    background: var(--main-color);
     content: '';
     display: block;
     height: 100%;
@@ -2441,7 +2441,7 @@ body {
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background: var(--menu-color);
+  background: var(--main-color);
   color: var(--main-color-text);
   cursor: default;
   height: 3.25rem;
@@ -2508,7 +2508,7 @@ body {
 #heading {
   -ms-flex-align: center;
   -ms-flex-pack: center;
-  background-color: var(--menu-color);
+  background-color: var(--main-color);
   color: var(--main-color-text);
   -moz-align-items: center;
   -webkit-align-items: center;
@@ -2617,7 +2617,7 @@ body {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.25)' /%3E%3C/svg%3E"); }
     #heading select option {
       color: var(--main-color-text);
-      background-color: var(--menu-color); }
+      background-color: var(--main-color); }
   #heading input[type="checkbox"] + label,
   #heading input[type="radio"] + label {
     color: var(--main-color-text); }
@@ -2657,15 +2657,15 @@ body {
   #heading table.alt tbody tr td {
     border-color: rgba(255, 255, 255, 0.25); }
   #heading .highlights .content {
-    background: var(--menu-color);
+    background: var(--main-color);
     box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025); }
   #heading .testimonials .content {
-    background: var(--menu-color);
+    background: var(--main-color);
     box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025); }
     #heading .testimonials .content .credit strong {
       color: var(--main-color); }
   #heading:before {
-    background: linear-gradient(135deg, var(--main-color) 0%, var(--menu-color) 74%);
+    background: linear-gradient(135deg, var(--main-color) 0%, var(--main-color) 74%);
     content: ' ';
     display: block;
     height: 100%;
