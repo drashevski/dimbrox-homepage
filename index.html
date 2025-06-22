@@ -17,13 +17,54 @@
 		content="AEC consulting, sustainable construction, BIM, energy efficiency, building energy audit, digital twin, architecture, engineering, Dimbrox, digitalization">
 	<meta name="theme-color" content="#004225">
 	<link rel="canonical" href="https://dimbrox.com/">
-	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="preload" href="assets/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript>
+		<link rel="stylesheet" href="assets/css/main.css">
+	</noscript>
 	<link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
 	<link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
 	<link rel="shortcut icon" href="favicon/favicon.ico" />
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
 	<meta name="apple-mobile-web-app-title" content="Dimbrox" />
 	<link rel="manifest" href="favicon/site.webmanifest" />
+
+	<!-- Open Graph -->
+	<meta property="og:title" content="Dimbrox – Sustainability & Digital AEC/BIM Solutions">
+	<meta property="og:description"
+		content="Empowering architects and engineers with BIM consulting and energy-efficient digital tools.">
+	<meta property="og:image" content="https://dimbrox.com/images/og-image.jpg">
+	<meta property="og:url" content="https://dimbrox.com/">
+	<meta property="og:type" content="website">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Dimbrox – Sustainability & Digital AEC/BIM Solutions">
+	<meta name="twitter:description"
+		content="Empowering architects and engineers with BIM consulting and energy-efficient digital tools.">
+	<meta name="twitter:image" content="https://dimbrox.com/images/og-image.jpg">
+
+	<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Dimbrox",
+  "url": "https://dimbrox.com",
+  "logo": "https://dimbrox.com/favicon/logo.svg",
+  "description": "Dimbrox provides digital and sustainable solutions for the AEC industry, specializing in energy efficiency and BIM consulting.",
+  "sameAs": [
+    "https://www.linkedin.com/in/diyan-rashevski/",
+    "https://github.com/drashevski/",
+    "https://x.com/diyan_rashevski/",
+	"https://www.facebook.com/share/1Ex8jVVxwx/"
+  ],
+"contactPoint": {
+  "@type": "ContactPoint",
+  "contactType": "Customer Support",
+  "email": "contact@dimbrox.com",
+  "availableLanguage": ["English", "German", "Bulgarian", "Spanish"]
+}
+}
+</script>
 </head>
 
 <body class="is-preload">
@@ -50,8 +91,9 @@
 			</p>
 			<br><br><br><a href="#what-we-do" class="button icon fa-wpexplorer">Explore</a>
 		</div>
-		<video autoplay loop muted playsinline aria-label="Background video showing modern architecture"
-			src="images/banner.mp4">Your browser does not support the video tag.</video>
+		<video autoplay loop muted playsinline aria-hidden="true">
+			<source src="images/banner.mp4" type="video/mp4">
+		</video>
 	</section><!-- Highlights -->
 	<section id="what-we-do" class="wrapper">
 		<div class="inner">
@@ -310,11 +352,11 @@
 	</div>
 
 	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+	<script src="assets/js/jquery.min.js" defer></script>
+	<script src="assets/js/browser.min.js" defer></script>
+	<script src="assets/js/breakpoints.min.js" defer></script>
+	<script src="assets/js/util.js" defer></script>
+	<script src="assets/js/main.js" defer></script>
 </body>
 
 </html>
