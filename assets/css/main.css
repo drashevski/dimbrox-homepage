@@ -2074,8 +2074,8 @@ ul.icons {
   body.is-preload #banner:before {
     opacity: 1; }
 
-/* CTA */
-#cta {
+/* Why we do it */
+#why-we-do-it {
   background-color: var(--main-color);
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed;
@@ -2087,140 +2087,140 @@ ul.icons {
   position: relative;
   text-align: center;
   z-index: 1; }
-  #cta input, #cta select, #cta textarea {
+  #why-we-do-it input, #why-we-do-it select, #why-we-do-it textarea {
     color: #ffffff; }
-  #cta a {
+  #why-we-do-it a {
     color: #ffffff; }
-  #cta strong, #cta b {
+  #why-we-do-it strong, #why-we-do-it b {
     color: #ffffff; }
-  #cta h1, #cta h2, #cta h3, #cta h4, #cta h5, #cta h6 {
+  #why-we-do-it h1, #why-we-do-it h2, #why-we-do-it h3, #why-we-do-it h4, #why-we-do-it h5, #why-we-do-it h6 {
     color: #ffffff; }
-  #cta blockquote {
+  #why-we-do-it blockquote {
     border-left-color: rgba(255, 255, 255, 0.25); }
-  #cta code {
+  #why-we-do-it code {
     background: rgba(255, 255, 255, 0.075);
     border-color: rgba(255, 255, 255, 0.25); }
-  #cta hr {
+  #why-we-do-it hr {
     border-bottom-color: rgba(255, 255, 255, 0.25); }
-  #cta input[type="submit"],
-  #cta input[type="reset"],
-  #cta input[type="button"],
-  #cta button,
-  #cta .button {
+  #why-we-do-it input[type="submit"],
+  #why-we-do-it input[type="reset"],
+  #why-we-do-it input[type="button"],
+  #why-we-do-it button,
+  #why-we-do-it .button {
     background-color: transparent;
     box-shadow: inset 0 0 0 1px #ffffff;
     color: #ffffff !important; }
-    #cta input[type="submit"]:hover,
-    #cta input[type="reset"]:hover,
-    #cta input[type="button"]:hover,
-    #cta button:hover,
-    #cta .button:hover {
+    #why-we-do-it input[type="submit"]:hover,
+    #why-we-do-it input[type="reset"]:hover,
+    #why-we-do-it input[type="button"]:hover,
+    #why-we-do-it button:hover,
+    #why-we-do-it .button:hover {
       background-color: rgba(255, 255, 255, 0.1); }
-      #cta input[type="submit"]:hover:active,
-      #cta input[type="reset"]:hover:active,
-      #cta input[type="button"]:hover:active,
-      #cta button:hover:active,
-      #cta .button:hover:active {
+      #why-we-do-it input[type="submit"]:hover:active,
+      #why-we-do-it input[type="reset"]:hover:active,
+      #why-we-do-it input[type="button"]:hover:active,
+      #why-we-do-it button:hover:active,
+      #why-we-do-it .button:hover:active {
         background-color: rgba(255, 255, 255, 0.25); }
-    #cta input[type="submit"].primary,
-    #cta input[type="reset"].primary,
-    #cta input[type="button"].primary,
-    #cta button.primary,
-    #cta .button.primary {
+    #why-we-do-it input[type="submit"].primary,
+    #why-we-do-it input[type="reset"].primary,
+    #why-we-do-it input[type="button"].primary,
+    #why-we-do-it button.primary,
+    #why-we-do-it .button.primary {
       box-shadow: none;
       background-color: #ffffff;
       color: var(--main-color) !important; }
-      #cta input[type="submit"].primary:hover,
-      #cta input[type="reset"].primary:hover,
-      #cta input[type="button"].primary:hover,
-      #cta button.primary:hover,
-      #cta .button.primary:hover {
+      #why-we-do-it input[type="submit"].primary:hover,
+      #why-we-do-it input[type="reset"].primary:hover,
+      #why-we-do-it input[type="button"].primary:hover,
+      #why-we-do-it button.primary:hover,
+      #why-we-do-it .button.primary:hover {
         background-color: rgba(255, 255, 255, 0.875);
         box-shadow: none; }
-        #cta input[type="submit"].primary:hover:active,
-        #cta input[type="reset"].primary:hover:active,
-        #cta input[type="button"].primary:hover:active,
-        #cta button.primary:hover:active,
-        #cta .button.primary:hover:active {
+        #why-we-do-it input[type="submit"].primary:hover:active,
+        #why-we-do-it input[type="reset"].primary:hover:active,
+        #why-we-do-it input[type="button"].primary:hover:active,
+        #why-we-do-it button.primary:hover:active,
+        #why-we-do-it .button.primary:hover:active {
           background-color: var(--main-color-text); }
-  #cta label {
+  #why-we-do-it label {
     color: #ffffff; }
-  #cta input[type="text"],
-  #cta input[type="password"],
-  #cta input[type="email"],
-  #cta input[type="tel"],
-  #cta input[type="search"],
-  #cta input[type="url"],
-  #cta select,
-  #cta textarea {
+  #why-we-do-it input[type="text"],
+  #why-we-do-it input[type="password"],
+  #why-we-do-it input[type="email"],
+  #why-we-do-it input[type="tel"],
+  #why-we-do-it input[type="search"],
+  #why-we-do-it input[type="url"],
+  #why-we-do-it select,
+  #why-we-do-it textarea {
     background-color: rgba(255, 255, 255, 0.075);
     border-color: rgba(255, 255, 255, 0.25); }
-    #cta input[type="text"]:focus,
-    #cta input[type="password"]:focus,
-    #cta input[type="email"]:focus,
-    #cta input[type="tel"]:focus,
-    #cta input[type="search"]:focus,
-    #cta input[type="url"]:focus,
-    #cta select:focus,
-    #cta textarea:focus {
+    #why-we-do-it input[type="text"]:focus,
+    #why-we-do-it input[type="password"]:focus,
+    #why-we-do-it input[type="email"]:focus,
+    #why-we-do-it input[type="tel"]:focus,
+    #why-we-do-it input[type="search"]:focus,
+    #why-we-do-it input[type="url"]:focus,
+    #why-we-do-it select:focus,
+    #why-we-do-it textarea:focus {
       border-color: #ffffff;
       box-shadow: 0 0 0 1px #ffffff; }
-  #cta select {
+  #why-we-do-it select {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.25)' /%3E%3C/svg%3E"); }
-    #cta select option {
+    #why-we-do-it select option {
       color: rgba(255, 255, 255, 0.75);
       background-color: var(--main-color); }
-  #cta input[type="checkbox"] + label,
-  #cta input[type="radio"] + label {
+  #why-we-do-it input[type="checkbox"] + label,
+  #why-we-do-it input[type="radio"] + label {
     color: rgba(255, 255, 255, 0.75); }
-    #cta input[type="checkbox"] + label:before,
-    #cta input[type="radio"] + label:before {
+    #why-we-do-it input[type="checkbox"] + label:before,
+    #why-we-do-it input[type="radio"] + label:before {
       background: rgba(255, 255, 255, 0.075);
       border-color: rgba(255, 255, 255, 0.25); }
-  #cta input[type="checkbox"]:checked + label:before,
-  #cta input[type="radio"]:checked + label:before {
+  #why-we-do-it input[type="checkbox"]:checked + label:before,
+  #why-we-do-it input[type="radio"]:checked + label:before {
     background-color: #ffffff;
     border-color: #ffffff;
     color: var(--main-color); }
-  #cta input[type="checkbox"]:focus + label:before,
-  #cta input[type="radio"]:focus + label:before {
+  #why-we-do-it input[type="checkbox"]:focus + label:before,
+  #why-we-do-it input[type="radio"]:focus + label:before {
     border-color: #ffffff;
     box-shadow: 0 0 0 1px #ffffff; }
-  #cta ::-webkit-input-placeholder {
+  #why-we-do-it ::-webkit-input-placeholder {
     color: rgba(255, 255, 255, 0.4) !important; }
-  #cta :-moz-placeholder {
+  #why-we-do-it :-moz-placeholder {
     color: rgba(255, 255, 255, 0.4) !important; }
-  #cta ::-moz-placeholder {
+  #why-we-do-it ::-moz-placeholder {
     color: rgba(255, 255, 255, 0.4) !important; }
-  #cta :-ms-input-placeholder {
+  #why-we-do-it :-ms-input-placeholder {
     color: rgba(255, 255, 255, 0.4) !important; }
-  #cta ul.alt li {
+  #why-we-do-it ul.alt li {
     border-top-color: rgba(255, 255, 255, 0.25); }
-  #cta table tbody tr {
+  #why-we-do-it table tbody tr {
     border-color: rgba(255, 255, 255, 0.25); }
-    #cta table tbody tr:nth-child(2n + 1) {
+    #why-we-do-it table tbody tr:nth-child(2n + 1) {
       background-color: rgba(255, 255, 255, 0.075); }
-  #cta table th {
+  #why-we-do-it table th {
     color: #ffffff; }
-  #cta table thead {
+  #why-we-do-it table thead {
     border-bottom-color: rgba(255, 255, 255, 0.25); }
-  #cta table tfoot {
+  #why-we-do-it table tfoot {
     border-top-color: rgba(255, 255, 255, 0.25); }
-  #cta table.alt tbody tr td {
+  #why-we-do-it table.alt tbody tr td {
     border-color: rgba(255, 255, 255, 0.25); }
-  #cta .highlights .content {
+  #why-we-do-it .highlights .content {
     background: var(--main-color);
     box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025); }
-  #cta .testimonials .content {
+  #why-we-do-it .testimonials .content {
     background: var(--main-color);
     box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025); }
-    #cta .testimonials .content .credit strong {
+    #why-we-do-it .testimonials .content .credit strong {
       color: var(--main-color); }
-  #cta .inner {
+  #why-we-do-it .inner {
     position: relative;
     z-index: 3; }
   @media screen and (max-width: 980px) {
-    #cta {
+    #why-we-do-it {
       background-attachment: scroll; } }
 .copyright {
   border-top: 1px solid;
